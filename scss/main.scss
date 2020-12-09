@@ -1,0 +1,14 @@
+// Main SCSS Files
+// 
+// This SCSS will be bundled to build/scss/main.bundle.scss
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Import Slick Slider
+$slick-font-family: 'inherit';
+@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick-theme.scss';
+
+// Import MMenu Light
+@import '~/mmenu-light/src/mmenu-light.scss';

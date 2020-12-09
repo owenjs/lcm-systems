@@ -1,0 +1,6 @@
+{
+  "plugins": ["lodash"],
+  "presets": [
+    "@babel/env"
+  ]
+}
