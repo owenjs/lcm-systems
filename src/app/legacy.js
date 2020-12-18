@@ -678,6 +678,7 @@ var app = {
       speed: 300,
       slidesToShow: 5,
       slidesToScroll: 1,
+      lazyLoad: 'ondemand',
       responsive: [
         {
           breakpoint: 1024,
@@ -716,6 +717,7 @@ var app = {
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 1,
+      lazyLoad: 'ondemand',
       responsive: [
         {
           breakpoint: 1024,
@@ -753,6 +755,7 @@ var app = {
       speed: 300,
       slidesToShow: 6,
       slidesToScroll: 1,
+      lazyLoad: 'ondemand',
       responsive: [
         {
           breakpoint: 1024,
@@ -788,6 +791,7 @@ var app = {
       speed: 300,
       slidesToShow: 6,
       slidesToScroll: 1,
+      lazyLoad: 'ondemand',
       responsive: [
         {
           breakpoint: 1024,
@@ -825,7 +829,8 @@ var app = {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000
+      autoplaySpeed: 4000,
+      lazyLoad: 'ondemand'
     });
   },
 
